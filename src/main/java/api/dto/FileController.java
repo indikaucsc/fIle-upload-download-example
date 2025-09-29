@@ -21,6 +21,7 @@ import java.util.UUID;
 @Tag(name = "Files")
 public class FileController {
 
+
     private final FileStorageService storage;
 
     @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
